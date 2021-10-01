@@ -35,10 +35,13 @@ else{
 }
 
 //loop to find prime numbers
+// let isprime ="true";
 for (let i=1; i<=n; i++){
     for(let div=2; div * div<=n; div++){
         if(i%div==0){
-            console.log
+            // isprime = "false";
+            break;
+            console.log(i);
         }
     }
 }
